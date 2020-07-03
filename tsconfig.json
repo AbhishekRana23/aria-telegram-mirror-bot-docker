@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "outDir": "./out",
+    "target": "es6",
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "lib": ["es2020.string"],
+    "noImplicitReturns": true,
+    "allowJs": true,
+    "sourceMap": false
+  },
+  "include": [
+    "./src/**/*"
+  ]
+}
