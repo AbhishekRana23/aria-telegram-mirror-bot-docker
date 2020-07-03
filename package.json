@@ -1,0 +1,42 @@
+{
+  "name": "mirror-bot",
+  "version": "2.0.0",
+  "description": "A telegram bot to mirror files to Google Drive",
+  "main": "index.js",
+  "scripts": {
+    "start": "NTBA_FIX_319=1 node --max_old_space_size=128 ./out/index.js"
+  },
+  "author": "Rana-Ji",
+  "license": "MIT",
+  "dependencies": {
+    "@types/archiver": "^3.0.0",
+    "@types/fs-extra": "^7.0.0",
+    "@types/mime-types": "^2.1.0",
+    "@types/node-telegram-bot-api": "^0.31.0",
+    "@types/tar": "^4.0.0",
+    "@types/jsdom": "^12.2.4",
+    "@types/uuid": "^3.4.4",
+    "archiver": "^4.0.0",
+    "aria2": "^3.0.1",
+    "diskspace": "^2.0.0",
+    "fs-extra": "^7.0.0",
+    "googleapis": "^41.0.1",
+    "http-range-parse": "^1.0.0",
+    "inly": "^4.0.5",
+    "node-stream-zip": "^1.11.1",
+    "node-telegram-bot-api": "^0.30.0",
+    "tar": "^4.4.4",
+    "typescript": "^3.5.3",
+    "uuid": "^3.3.2",
+    "moment": "^2.27.0",
+    "request": "^2.88.0",
+    "telegraph-node": "^1.0.4",
+    "node-unrar": "^0.1.5"
+  },
+  "devDependencies": {
+    "@types/node-7z": "^0.4.2",
+    "@typescript-eslint/eslint-plugin": "^1.12.0",
+    "@typescript-eslint/parser": "^1.12.0",
+    "eslint": "^6.0.1"
+  }
+}
